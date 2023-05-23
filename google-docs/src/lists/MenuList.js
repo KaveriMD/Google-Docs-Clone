@@ -1,0 +1,26 @@
+export const MenuList = [
+    {
+        text:"File"
+    },
+    {
+        text:"Edit"
+    },
+    {
+        text:"View"
+    },
+    {
+        text:"Insert"
+    },
+    {
+        text:"Format"
+    },
+    {
+        text:"Tools"
+    },
+    {
+        text:"Extensions"
+    },
+    {
+        text:"Help"
+    }
+]

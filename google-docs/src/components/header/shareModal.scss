@@ -1,0 +1,130 @@
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  background-color: white;
+}
+.popup-title {
+  display: flex;
+  padding: 20px 20px 0px;
+}
+.share-title {
+  font-size: 22px;
+  margin-right: 150px;
+}
+.popup-icon {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+}
+.popup-icon:hover {
+  background-color: #e8ebee;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.add-people {
+  margin: 18px 20px;
+  padding: 0px 20px;
+  padding: 15px;
+  width: 430px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+.add-people:focus {
+  border: 2px solid #0b57d0;
+  outline: none;
+}
+.people-with-access {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0px 20px;
+}
+.user-detail {
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+  padding: 8px 20px;
+}
+.user-detail:hover {
+  background-color: #ededed;
+}
+.user-detail .profile {
+  border: none;
+}
+.name {
+  font-weight: 500;
+}
+.mail-id {
+  font-size: 14px;
+  color: #595959;
+}
+.owner {
+  color: #595959;
+  margin-left: 220px;
+}
+.restricted-icon {
+  width: 18px;
+  height: 18px;
+  padding: 8px;
+  background-color: #e3e3e3;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+.restricted-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+  padding: 0px 2px;
+}
+.restricted-text:hover {
+  background-color: #e3e3e3;
+  border-radius: 4px;
+}
+.copy-link {
+  background-color: white;
+  padding: 8px 10px;
+  border: 1px solid grey;
+  border-radius: 100px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0b57d0;
+  margin: 0px 20px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.copy-link:hover {
+  background-color: #c2e7ff;
+}
+.insert-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+.done {
+  background-color: #0b57d0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 0px 20px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.done:hover {
+  background-color: #0b57d0;
+}
+.popup-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

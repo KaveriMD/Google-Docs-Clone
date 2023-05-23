@@ -1,0 +1,55 @@
+.right-navigation {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 56px;
+  height: 600px;
+  background-color: #f9fbfd;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+  margin: 6px 0px;
+  padding: 10px;
+}
+.icon-list {
+  display: flex;
+  justify-content: center;
+}
+.icons:hover {
+  cursor: pointer;
+  background-color: #f1f3f4;
+  border-radius: 100%;
+}
+.border-top {
+  border-top: 1px solid #c7c7c7;
+  width: 20px;
+  margin: 16px 18px;
+}
+.plus-icon {
+  font-size: 18px;
+  margin-top: 40px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.plus-icon:hover {
+  cursor: pointer;
+  background-color: #f1f3f4;
+  border-radius: 100%;
+}
+.side-panel {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 12px;
+  padding: 12px;
+  color: grey;
+}
+.side-panel:hover {
+  cursor: pointer;
+  background-color: #f1f3f4;
+  border-radius: 100%;
+}
